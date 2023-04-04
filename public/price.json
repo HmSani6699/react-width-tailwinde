@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Quaran",
       "price": 10,
-      "future": [
+      "feature": [
         "More colors",
         "Improved user-friendliness",
         "Better performance"
@@ -13,7 +13,7 @@
       "id": 2,
       "name": " Arbi Book",
       "price": 19,
-      "future": [
+      "feature": [
         "Possible subscription model",
         "More customization options",
         "Integration with other apps"
@@ -23,7 +23,7 @@
       "id": 3,
       "name": "Madrasa",
       "price": 59,
-      "future": [
+      "feature": [
         "Enhanced user interface",
         "Improved search functionality",
         "More payment options"
