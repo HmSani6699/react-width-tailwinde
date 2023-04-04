@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App">
     <Navbar></Navbar>
-      <h1 className="text-4xl text-purple-600 font-bold">hallo from tailwind </h1>
       <Price></Price>
     </div>
   );
