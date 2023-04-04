@@ -5,15 +5,19 @@ const Price = () => {
   const [prices, setPrices] = useState([]);
   useEffect(() => {
     fetch("price.json")
-    .then(res=>res.json())
-    .then(data=>console.log(data))
+      .then((res) => res.json())
+      .then((data) => setPrices(data));
   }, []);
   return (
     <div>
       <h1 className="p-4 text-5xl font-bold text-center bg-purple-300">
         Awsome price list
       </h1>
-      <div></div>
+      <div className="grid grid-cols-3 gap-4">
+        {prices.map((price) => (
+          <PriceCart key={price.id} price={price}></PriceCart>
+        ))}
+      </div>
     </div>
   );
 };

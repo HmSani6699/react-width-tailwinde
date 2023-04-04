@@ -1,8 +1,8 @@
 [
-    {
+   {
       "id": 1,
-      "name": "Product 1",
-      "price": 10.99,
+      "name": "Quaran",
+      "price": 10,
       "future": [
         "More colors",
         "Improved user-friendliness",
@@ -11,8 +11,8 @@
     },
     {
       "id": 2,
-      "name": "Product 2",
-      "price": 19.99,
+      "name": " Arbi Book",
+      "price": 19,
       "future": [
         "Possible subscription model",
         "More customization options",
@@ -21,8 +21,8 @@
     },
     {
       "id": 3,
-      "name": "Product 3",
-      "price": 5.99,
+      "name": "Madrasa",
+      "price": 59,
       "future": [
         "Enhanced user interface",
         "Improved search functionality",
