@@ -1,12 +1,11 @@
 import React from 'react';
-import { BeakerIcon } from '@heroicons/react/24/solid';
+import { CheckCircleIcon } from '@heroicons/react/24/solid';
 
 const Feature = ({feature}) => {
-    console.log(feature)
     return (
-        <div>
-           <span>{feature}</span>
-           <BeakerIcon className="h-6 w-6 text-blue-500" />
+        <div className='flex items-center'>
+           <CheckCircleIcon className="h-6 w-6 text-purple-700" />
+           <span className='ml-2'>{feature}</span>
         </div>
     );
 };
