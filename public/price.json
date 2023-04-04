@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 10.99,
+      "future": [
+        "More colors",
+        "Improved user-friendliness",
+        "Better performance"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 19.99,
+      "future": [
+        "Possible subscription model",
+        "More customization options",
+        "Integration with other apps"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "price": 5.99,
+      "future": [
+        "Enhanced user interface",
+        "Improved search functionality",
+        "More payment options"
+      ]
+    }
+]
